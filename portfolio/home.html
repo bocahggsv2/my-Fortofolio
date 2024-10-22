@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dian Portofolio</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/49174dc2b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pictures/logo-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Developer</p>
+                <h1>HI, I'm <span>Dian Sumarya Supendi</span> <br> Front End Developer From Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    
+
+    <!---------ABOUT-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pictures/gelo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Nama saya Dian Sumarya Supendi, 
+                        seorang Front-End Developer dengan dedikasi tinggi 
+                        dan passion yang mendalam terhadap pengembangan web modern. 
+                        Saya bersekolah dari SMK Negeri 69 Jakarta, 
+                        di mana saya mendapatkan fondasi kuat dalam teknologi web. 
+                        Saya memiliki keterampilan teknis yang kuat dalam HTML, dan CSS</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Hard Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Soft Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+
+                         <!-----------Skills-------------->
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Html</span><br>Bahasa pemrogramman dibuat untuk membuat Website</li>
+                                <li><span>Css</span><br>Bahasa pemrogramman yang dibuat untuk mengatur tampilan Website</li>
+                                <li><span>English</span><br>Mampu berbicara bahasa inggris dan emahaminya</li>
+                                <li><span>Premiere Pro Dasar</span><br>Mengedit video menggunakan premiere pro</li>
+                                <li><span>Photoshop Dasar</span><br>Mengedit Foto menggunakan Photoshop</li>
+                            </ul>
+                         </div>
+
+
+                         <!----------Pengalaman------------->
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>pekerja keras</span>
+                                <li><span>mampu beradaptasi 
+                                <li><span>percaya diri 
+                                <li><span>mampu tampil di depan umum</span>
+                            
+                            </ul>
+                         </div>
+
+
+                         <!---------Pengetahuan----------->
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SDIT Al Husnayain</span><br>2013-2019</li>
+                                <li><span>MTsN 31 Jakarta</span><br>2019-2022</li>
+                                <li><span>SMKN 69 Jakarta </span><br>2022-2026</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div class="gatan107">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Frontend Web Design</h2>
+                    <p>Dengan kombinasi antara kemampuan teknis, kreativitas, 
+                        dan pendekatan problem-solving, saya siap menghadapi berbagai tantangan dalam
+                         dunia pengembangan web dan berkontribusi dalam menciptakan produk digital
+                          yang berkualitas tinggi.</p>
+                </div>
+                <div class="dian31">
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Backend Dasar</h2>
+                    <p>saya diajarkan banyak hal terutama back end developer dan framework berupa adonis js dan membuat, mengatur, 
+                        dan menghapus database di php my admin berkat pengalaman saya mengikuti pelatihan,
+                         saya mulai mempelajari dan membuat sebuah web  yang menggunakan php dan sql</p>
+                </div>
+                <div class="chendy20">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>UI Design</h2>
+                    <p>Saya Juga Pernah Membuat UI Untuk Aplikasi Bagian Register Dan login bertemakan windows jadul
+                         untuk Aplikasinya
+                        saya menggunakan figma dan mencari cari refrensinya saya menginstall windows jadul tersebut
+                         selengkapnya bisa kalian
+                        klik link ini
+                    </p>
+                    <a href="pictures/sign in frame.png" download class="Ui">Download Design</a> 
+                                </div>
+            </div>
+        </div>
+    </div>
+<!------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Experiences</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pictures/347461971 (1) (1).png">
+                <div class="layer">
+                    <h3>Pelatihan Institut Kemandirian</h3>
+                    <p>Pelatihan ini Merupakan Pelatihan pertama saya di Smkn 69 jakarta ini.
+                         disini saya belajar banyak hal termasuk memahami bahasa pemrograman HTML dan css yang masih mendasar. 
+                         tidak sampai disitu, 
+                         saya juga dapat menciptakan website pertama saya bersama teman teman saya yang bertemakan jasa barber shop</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/Screenshot 2024-01-29 142631.png">
+                <div class="layer">
+                    <h3>Flappy plane games</h3>
+                    <p>Game Ini Merupakan Parodi dari "Flappy Bird" sebuah game yag mengharuskan
+                        kita untuk menerbangkan sebuah pesawat tanpa mengenai sebuah bangunan
+                        saya pun juga terlibat dalam memprogram, dan mengaturnya di unity
+                    </p>
+                        <a href="https://www.youtube.com/watch?v=gx-6db_2lb0"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/p4.jpg">
+                <div class="layer">
+                    <h3>Pelatihan P4</h3>
+                    <p>pada pelatihan ini saya diajarkan banyak hal terutama back end developer dan framework berupa adonis js dan membuat, 
+                        mengatur, dan menghapus database di php my admin berkat pengalaman saya mengikuti pelatihan, 
+                        saya mulai mempelajari dan membuat sebuah web  yang menggunakan php dan sql</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="title"><i class="fa-regular fa-paper-plane"></i> itsdiangg@gmail.com</p>
+                <p class="title"><i class="fa-solid fa-square-phone"></i> 089654959284</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sumarya.dian.3/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/bocahggsv2"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/penday_dayen/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dian-sumarya-supendi-735189327/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="pictures/cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 by Dian Sumarya Supendi. All Rights Reserved</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-100%";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz-drFFbkHRsACJLgBQNF6ZspdgrNk3sYMfS4Px6vqxlXDenL2I47aqWGinF8e6gOHmqw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
